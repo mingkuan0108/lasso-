@@ -111,15 +111,10 @@ $$
 4. **BCD算法最慢**：平均1.230秒，比最快算法慢约47倍，但精度最高
 
 #### 3.2.4 可视化结果
-1. ![收敛曲线对比图]（）：
-   - Proximal Gradient、ADMM、Coordinate Descent三类算法均能快速收敛到最优解（次优性接近1e-15）
-   - Huber类算法收敛到次优性1e-1左右，未达到最优解
-   - SGD和Subgradient算法收敛曲线平缓，始终维持在高次优性水平（1e0以上），未实现有效收敛
 
-2. ![运行时间对比图]（）：
-   - SGD和Subgradient算法运行时间最短（平均0.02-0.04s），但以牺牲收敛性为代价
-   - Proximal Gradient和Huber类算法实现了效率与性能的平衡（0.05s左右）
-   - Coordinate Descent算法运行时间最长（平均1.3s），但收敛精度最高
+![收敛曲线对比图]（https://github.com/mingkuan0108/lasso-/blob/main/convergence_adaptive.png）：
+
+!运行时间对比图]（）：
 
 ---
 
