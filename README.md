@@ -112,9 +112,9 @@ $$
 
 #### 3.2.4 可视化结果
 
-![收敛曲线对比图]（https://github.com/mingkuan0108/lasso-/blob/main/convergence_adaptive.png）：
+![收敛曲线对比图](convergence_adaptive.png)
 
-!运行时间对比图]（）：
+![运行时间对比图](runtime_adaptive.png)
 
 ---
 
